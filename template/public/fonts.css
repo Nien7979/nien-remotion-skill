@@ -1,0 +1,27 @@
+/* Be Vietnam Pro — font chữ tiếng Việt, file nằm sẵn trong public/fonts/
+   nên render được cả khi không có mạng (máy ảo không tải được từ Google Fonts).
+   Muốn dùng Google Fonts CDN thay cho cách này, xem references/02-tao.md */
+
+@font-face {
+  font-family: "Be Vietnam Pro";
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url("fonts/BeVietnamPro-400.woff2") format("woff2");
+}
+
+@font-face {
+  font-family: "Be Vietnam Pro";
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: url("fonts/BeVietnamPro-700.woff2") format("woff2");
+}
+
+@font-face {
+  font-family: "Be Vietnam Pro";
+  font-style: normal;
+  font-weight: 900;
+  font-display: swap;
+  src: url("fonts/BeVietnamPro-900.woff2") format("woff2");
+}
